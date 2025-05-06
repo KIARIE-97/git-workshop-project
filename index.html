@@ -17,7 +17,7 @@
 <body> 
 <main class="container">
     <!-- Character Summon Section -->
-    <section>
+    <section id="summon">
         <h2>🎮 Summon Your Hero</h2>
         <p>Click to summon your hero or join the ninja academy!</p>
         <button type="button" id="summonBtn">Summon a Hero</button>
@@ -30,7 +30,7 @@
     </section>
     
     <!-- Tabs to select Heroes -->
-    <section class="tabs">
+    <section class="tabs" id="game">
         <h2>🎮 Hero Tabs </h2>
         <p>Click on the tabs to view your heroes special power</p>
         <button type="button" class="tab" onclick="showTab('gojo')">Gojo</button>
@@ -65,7 +65,7 @@
 </main>
 
     <!-- Form Validation -->
-    <section class="form-section">
+    <section class="form-section" id="form">
         <h2>📝 Join the Anime Ninjas Academy</h2>
         <form id="ninjaForm">
             <input class="form-input" type="text" id="name" placeholder="Name" required />
