@@ -1,71 +1,51 @@
-/* Basic styles for the anime streaming website */
-
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    text-align: center;
+    background-color: #f4f4f4;
     color: #333;
 }
 
-header {
-    background-color: #282c34;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
-h1 {
-    margin: 0;
-}
-
-nav {
+/* Header Styling */
+.title {
+    color: #133961;
+    font-size: 2em;
     margin: 20px 0;
 }
 
+/* Navigation Styling */
+nav {
+    background: #471c52;
+    padding: 15px;
+}
+
 nav a {
-    color: #61dafb;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.anime-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.anime-item {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
+/* Image Styling */
+.styled-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid #14365a;
+    margin: 20px 0;
     padding: 10px;
-    width: 200px;
-    text-align: center;
+    background-color: white;
 }
 
-.anime-item img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #282c34;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+/* Footer Styling */
+#contact {
+    background: #f1f1f1;
+    padding: 10px;
+    border-top: 2px solid #031324;
+    font-weight: bold;
 }
