@@ -28,6 +28,21 @@ const heroes = [
         name: "Kilua",
         power: "Godspeed ⚡",
         image: "https://th.bing.com/th/id/OIP.eQImgwNO5zO5rJKuAiLM8QHaFD?w=263&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+        name: "Naruto",
+        power: "Sage Mode 🐢",
+        image: "https://img.freepik.com/premium-psd/png-radiant-rhythms-unleashing-creativity-with-sticker-anime-characters-through-neon-lines_1142283-37144.jpg?uid=R154664640&semt=ais_hybrid&w=740"
+    },
+    {
+        name: "Goku",
+        power: "Ultra Instinct 🌌",
+        image: "https://www.freepik.com/premium-vector/anime_242019530.htm#fromView=search&page=1&position=24&uuid=1d58bef9-726d-4a6d-90d0-66d921cf0087&query=goku"
+    },
+    {
+        name: "Saitama",
+        power: "One Punch 💥",
+        image: "https://img.freepik.com/premium-photo/saitama-from-one-punchman-as-alex-ross-art-style_1000547-438.jpg?uid=R154664640&semt=ais_hybrid&w=740"
     }
   ];
   
