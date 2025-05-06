@@ -157,5 +157,21 @@ body {
     .guessInput {
       width: 100%;
     }
+  } 
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
   }
-  
+  .header {
+    background-color: #1a1a40;
+    padding: 20px;
+    text-align: center;
+  }
+  .header li {
+    list-style-type: none;
+    padding: 0;
+  }
